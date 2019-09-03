@@ -1,3 +1,16 @@
+.background-login{
+    --ion-background-color: #BB0000;
+}
+.button.button-login{
+    font-size: 25px;
+    font-weight: 300;
+    height: 65px;
+    background-color: #FFFFFF;
+    color: #BEBEBE;
+    border-radius: 12px;
+    padding: 2px 7px;
+}
+
 i-feather{
     &.icon{
         width: 18px;

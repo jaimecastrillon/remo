@@ -1,11 +1,9 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Ingreso de usuarios</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  
+<ion-content class="ion-padding-top background-login">
+  <ion-row>
+    <ion-col class="ion-text-center">
+      <img src="/assets/logo-remo.png" alt="" />
+    </ion-col>
+  </ion-row>
   <ion-list>
     <ion-item>
       <ion-label position="floating">
@@ -20,7 +18,7 @@
       <ion-input name="password" type="password"></ion-input>
     </ion-item>
   </ion-list>
-  <div class="ion-padding">
-    <ion-button color="danger" class="button-block" expand="block" [routerLink]="['/home']">Ingresar</ion-button>
+  <div class="ion-padding ion-text-center">
+    <ion-button color="gray" class="button button-login"  [routerLink]="['/home']">INGRESAR</ion-button>
   </div>
 </ion-content>
