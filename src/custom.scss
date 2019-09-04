@@ -1,14 +1,17 @@
 .background-login{
     --ion-background-color: #BB0000;
 }
-.button.button-login{
-    font-size: 25px;
-    font-weight: 300;
-    height: 65px;
-    background-color: #FFFFFF;
-    color: #BEBEBE;
-    border-radius: 12px;
-    padding: 2px 7px;
+.button{
+    &.button-login{
+        font-size: 25px;
+        font-weight: 300;
+        height: 65px;
+        background-color: #FFFFFF;
+        color: #BEBEBE;
+        border-radius: 12px;
+        padding: 2px 7px;
+        margin-top: 15px;
+    }
 }
 
 i-feather{
@@ -19,10 +22,33 @@ i-feather{
     }
 }
 
-.button.button-table{
-    --border-radius: 40px;
-    font-size: 25px;
-    font-weight: 200;
-    height: 130px;
-    text-transform: none;
+ion-item{
+    &.login{
+        padding: 0 12%;
+        ion-label{
+            color: #FFFFFF !important;
+            font-family: 'Dosis', sans-serif;
+            font-weight: 200;
+            font-size: 18px !important;
+            i-feather{
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.input-form{
+    margin-bottom: 2px;
+    padding: 15px;
+    width: 100%;
+}
+
+.button{
+    &.button-table{
+        --border-radius: 40px;
+        font-size: 25px;
+        font-weight: 200;
+        height: 130px;
+        text-transform: none;
+    }
 }
